@@ -9,13 +9,25 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Node",
+"base": "Node2D",
 "class": "Maze",
 "language": "GDScript",
 "path": "res://Scripts/Maze.gd"
+}, {
+"base": "Node",
+"class": "MazePath",
+"language": "GDScript",
+"path": "res://Scripts/MazePath.gd"
+}, {
+"base": "Node",
+"class": "Room",
+"language": "GDScript",
+"path": "res://Scripts/Room.gd"
 } ]
 _global_script_class_icons={
-"Maze": ""
+"Maze": "",
+"MazePath": "",
+"Room": ""
 }
 
 [application]
